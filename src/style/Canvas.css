@@ -1,3 +1,6 @@
-canvas{
-    transform: rotate(0deg);
-}
+@media only screen and (max-width: 768px) {
+    canvas{
+        display: block;
+        margin: 1rem auto 0;
+    }
+  }

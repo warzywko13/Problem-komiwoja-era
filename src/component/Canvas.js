@@ -1,4 +1,5 @@
 import { useRef, useEffect } from 'react'
+import '../style/Canvas.css'
 
 const Canvas = props => {
     const {points} = props
