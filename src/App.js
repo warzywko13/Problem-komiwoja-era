@@ -31,6 +31,7 @@ class App extends React.Component {
 
     if(name === 'select' && value !== "-1"){
       this.SetStartPosition(value)
+      console.log(e.target.value)
     }
   }
 
@@ -64,6 +65,13 @@ class App extends React.Component {
     })
 
     this.setState({points})
+
+    if(points.length < 3){
+      this.setState({
+        select: "-1",
+        startPosition: {}
+      })
+    }
   }
 
   render() {
