@@ -64,6 +64,13 @@ class App extends React.Component {
     })
 
     this.setState({points})
+
+    if(points.length < 3){
+      this.setState({
+        select: "-1",
+        startPosition: {}
+      })
+    }
   }
 
   render() {
