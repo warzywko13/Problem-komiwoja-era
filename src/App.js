@@ -35,6 +35,14 @@ class App extends React.Component {
     }
   }
 
+  HandleKeyDown = e => {
+    console.log(e.key)
+
+    if(e.key === 'Enter'){
+      this.AddToPoints()
+    }
+  }
+
   AddToPoints = () => {
     if(this.state.x === '' || this.state.y === ''){
       alert('Proszę o uzupełnienie formularza.')
@@ -78,7 +86,8 @@ class App extends React.Component {
     return (
       <React.StrictMode>
         <InsertForm 
-          HandleForm={this.HandleForm} 
+          HandleForm={this.HandleForm}
+          HandleKeyDown={this.HandleKeyDown} 
           AddToPoints={this.AddToPoints}
           x={this.state.x}
           y={this.state.y}
