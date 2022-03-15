@@ -4,7 +4,7 @@ import { Form } from 'react-bootstrap'
 import '../style/InsertForm.css'
 
 const InsertForm = props => {
-    const {HandleForm, AddToPoints, HandleKeyDown, x, y} = props
+    const {HandleForm, AddToPoints, x, y} = props
   
     return (
       <>
@@ -13,7 +13,7 @@ const InsertForm = props => {
           <Form.Group className="mb-3 text-center">
               <Form.Control type="text" placeholder="Podaj X" name="x" value={x} onChange={HandleForm} />
               <Form.Control type="text" placeholder="Podaj Y" name="y" value={y} onChange={HandleForm} />
-            <Button variant="outline-success" onClick={AddToPoints} onKeyPress={HandleKeyDown} size="lg">Dodaj</Button>
+            <Button variant="outline-success" onClick={AddToPoints} size="lg">Dodaj</Button>
           </Form.Group>
         </div>
       </>

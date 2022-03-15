@@ -31,15 +31,6 @@ class App extends React.Component {
 
     if(name === 'select' && value !== "-1"){
       this.SetStartPosition(value)
-      console.log(e.target.value)
-    }
-  }
-
-  HandleKeyDown = e => {
-    console.log(e.key)
-
-    if(e.key === 'Enter'){
-      this.AddToPoints()
     }
   }
 
@@ -73,21 +64,13 @@ class App extends React.Component {
     })
 
     this.setState({points})
-
-    if(points.length < 3){
-      this.setState({
-        select: "-1",
-        startPosition: {}
-      })
-    }
   }
 
   render() {
     return (
       <React.StrictMode>
         <InsertForm 
-          HandleForm={this.HandleForm}
-          HandleKeyDown={this.HandleKeyDown} 
+          HandleForm={this.HandleForm} 
           AddToPoints={this.AddToPoints}
           x={this.state.x}
           y={this.state.y}

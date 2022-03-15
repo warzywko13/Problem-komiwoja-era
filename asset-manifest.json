@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Problem-komiwoja-era/static/css/main.a1f2c598.css",
+    "main.js": "/Problem-komiwoja-era/static/js/main.b3bc9bdb.js",
+    "static/js/787.47b28779.chunk.js": "/Problem-komiwoja-era/static/js/787.47b28779.chunk.js",
+    "index.html": "/Problem-komiwoja-era/index.html",
+    "main.a1f2c598.css.map": "/Problem-komiwoja-era/static/css/main.a1f2c598.css.map",
+    "main.b3bc9bdb.js.map": "/Problem-komiwoja-era/static/js/main.b3bc9bdb.js.map",
+    "787.47b28779.chunk.js.map": "/Problem-komiwoja-era/static/js/787.47b28779.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1f2c598.css",
+    "static/js/main.b3bc9bdb.js"
+  ]
+}
