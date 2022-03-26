@@ -14,7 +14,7 @@ const Knn = props => {
     let usedPoints = []
     let cost = 0.00
   
-    points2 = points2.filter(point => (point.x !== currentPoint.x && point.y !== currentPoint.y))
+    points2 = points2.filter(point => (point.id !== currentPoint.id))
     usedPoints = usedPoints.concat(currentPoint)
   
     while(points2.length !== 0){
