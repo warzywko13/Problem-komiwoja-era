@@ -23,9 +23,8 @@ Kiedy już wybierzemy interesujący nasz punkt na liście niżej ukaże się:
 
 ## Technologie
 Projekt stworzyłem przy użyciu:
-* Html 5
-* Framework javascript React.js
-* React Bootstrap
+* Framework javascript React
+* Tailwind.css 
 	
 ## Jak uruchomić projekt?
 Wersja skompilowana znajduje się w katalogu build

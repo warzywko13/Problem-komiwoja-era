@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #111111;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .button {
+        @apply 
+            w-56 
+            mx-auto 
+            mt-4 
+            p-3 
+            bg-transparent 
+            border-2 
+            border-green 
+            text-green 
+            rounded-md 
+            
+            hover:bg-light-green 
+            hover:text-white 
+            hover:scale-105 
+            duration-300;
+    }
+
+    .input {
+        @apply 
+            m-2 
+            p-3 
+            text-xl 
+            text-dark 
+            rounded-md
+    }
+
+    .list {
+        @apply
+            m-1 
+            p-1 
+            text-center 
+            text-2xl 
+            bg-transparent 
+            border-2 
+            border-green 
+            rounded-sm
+    }
+}
+
+
+
