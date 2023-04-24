@@ -1,11 +1,15 @@
 ## Spis Treści
 * [Informacje o projekcie](#informacje-o-projekcie)
+* [Demo](#demo)
 * [Jak działa](#jak-działa)
 * [Technologie](#technologie)
 * [Jak uruchomić projekt?](#jak-uruchomić-projekt)
 
 ## Informacje o projekcie
 Projekt rozwiązuje Problem komiwojażera, który polega na pokonaniu drogi przez punkty w optymalny sposób. W wykonaniu projektu posłużyłem się aplikacją internetową, ponieważ znam technologię Canvas, która umożliwia pokazanie drogi graficznie a bardzo zależało mi na tym.
+
+## Demo
+[Link](https://warzywko13.github.io/Problem-komiwoja-era/)
 
 ## Jak działa
 Program do pobiera od użytkownika punkty X i Y, które w późniejszej fazie będzie mógł wykorzystać w liście select. Aby lista wyboru pokazała się użytkownikowi wymagane jest podanie co najmniej 3 punktów.
